@@ -47,7 +47,7 @@ app.put("/update/:id", (req,res)=>{
     const id = req.params.id;
     connection.query(sql, [...values, id], (err,data)=>{
         res.json({
-            msg: "user created!!"
+            msg: "user updated!!"
         })
     })
 })
