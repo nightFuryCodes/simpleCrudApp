@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container_table{
+    background-color:black;
+    width:50%;
+}
+.add{
+    width:20%;
+}
+.table{
+    border : 1px solid white;
+    padding: 2rem;
+    width:100%;
+    text-align: center;
+    table-layout: fixed;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border-bottom: 1px solid white;
+}
+.primary{
+    background-color: green;
+    width:50%;
+}
+.delete{
+    background-color: red;
+    width:50%;
+}
